@@ -14,7 +14,7 @@ static ResourceBundle sql = DBUtil.getResourceBundle();
 	
 	public static ArrayList<MajorDTO> getHss() throws Exception{
 		Connection con = null;
-		PreparedStatement pstmt = null;
+		PreparedStatement pstmt = null;  
 		ResultSet rset = null;
 		ArrayList<MajorDTO> list = null;
 		
